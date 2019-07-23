@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func openButton(_ sender: Any) {
+        let modalViewController = UIViewController()
+        modalViewController.modalPresentationStyle = .custom
+        modalViewController.transitioningDelegate = self
+        present(modalViewController, animated: true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -18,3 +24,10 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController: UIViewControllerTransitioningDelegate {
+    
+    func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
+        
+        return CustomPresentationController(presentedViewController: presented, presenting: presenting)
+    }
+}
