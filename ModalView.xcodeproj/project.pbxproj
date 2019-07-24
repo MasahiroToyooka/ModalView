@@ -13,6 +13,7 @@
 		C1EA6FFC22E72DEF007BE3B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1EA6FFB22E72DEF007BE3B4 /* Assets.xcassets */; };
 		C1EA6FFF22E72DEF007BE3B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1EA6FFD22E72DEF007BE3B4 /* LaunchScreen.storyboard */; };
 		C1EA700722E73041007BE3B4 /* CustomPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA700622E73041007BE3B4 /* CustomPresentationController.swift */; };
+		C1EA700922E7E658007BE3B4 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA700822E7E658007BE3B4 /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C1EA6FFE22E72DEF007BE3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1EA700022E72DEF007BE3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1EA700622E73041007BE3B4 /* CustomPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPresentationController.swift; sourceTree = "<group>"; };
+		C1EA700822E7E658007BE3B4 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C1EA6FF422E72DEE007BE3B4 /* AppDelegate.swift */,
 				C1EA6FF622E72DEE007BE3B4 /* ViewController.swift */,
 				C1EA700622E73041007BE3B4 /* CustomPresentationController.swift */,
+				C1EA700822E7E658007BE3B4 /* ModalViewController.swift */,
 				C1EA6FF822E72DEE007BE3B4 /* Main.storyboard */,
 				C1EA6FFB22E72DEF007BE3B4 /* Assets.xcassets */,
 				C1EA6FFD22E72DEF007BE3B4 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1EA700922E7E658007BE3B4 /* ModalViewController.swift in Sources */,
 				C1EA6FF722E72DEE007BE3B4 /* ViewController.swift in Sources */,
 				C1EA6FF522E72DEE007BE3B4 /* AppDelegate.swift in Sources */,
 				C1EA700722E73041007BE3B4 /* CustomPresentationController.swift in Sources */,

@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func openButton(_ sender: Any) {
-        let modalViewController = UIViewController()
+        let modalViewController = ModalViewController()
         modalViewController.modalPresentationStyle = .custom
         modalViewController.transitioningDelegate = self
         present(modalViewController, animated: true, completion: nil)
